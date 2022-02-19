@@ -42,7 +42,7 @@ for i in range(4):
     magtag.set_text(texts[i], auto_refresh=False, index=i+1)
 
 # Create the QR code
-url = "https://github.com/hgspig/Milestone-quiz#answer:-c"
+url = "https://github.com/hgspig/Milestone-quiz#answer-c"
 magtag.graphics.qrcode(url, qr_size=3, x=(magtag.graphics.display.width-93), y=34)
 
 magtag.refresh()
